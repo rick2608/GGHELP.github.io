@@ -6,7 +6,11 @@
 <title>GG.HELP — Ajuda pra qualquer jogo, na hora</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"> 
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#ea580c">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 <body>
 
@@ -215,6 +219,11 @@
 </footer>
 
 <script src="script.js"></script>
+<script>
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
 
 </body>
 </html>
