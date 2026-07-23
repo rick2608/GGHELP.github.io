@@ -1,7 +1,7 @@
 // Modelo inicial do service worker para copiar e completar.
 // Complete cada TODO durante a atividade.
 
-const NOME_DO_CACHE = 'lanche-do-codigo-v1';
+const NOME_DO_CACHE = 'GGHELP';
 
 // TODO: acrescente somente caminhos de arquivos que já existem no projeto.
 const ARQUIVOS_DO_APP = [
